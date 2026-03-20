@@ -1,0 +1,21 @@
+# Visual Studio / IDE files
+.vs/
+bin/
+obj/
+*.suo
+*.user
+*.userosscache
+*.sdf
+*.ipch
+*.VC.db
+
+# Build outputs
+*.exe
+*.dll
+*.pdb
+*.log
+
+# Temporary files
+*.tmp
+*.cache
+*.db

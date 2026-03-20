@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{9002dc29-f4a4-450c-a9ba-86ff723d25ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Extern">
+      <UniqueIdentifier>{5cfdb84c-6790-4634-bc0b-036bc6ef51a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tests">
+      <UniqueIdentifier>{151432ed-cdc9-4032-a27a-a713609c8f0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tests">
+      <UniqueIdentifier>{9eaae6a3-86ce-442c-9656-1e48911d7194}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\VertexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IndexBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\VertexArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\VertexBufferLayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\stb_image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\imgui\imgui.cpp">
+      <Filter>Resource Files\Extern</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\imgui\imgui_demo.cpp">
+      <Filter>Resource Files\Extern</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\imgui\imgui_draw.cpp">
+      <Filter>Resource Files\Extern</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\imgui\imgui_impl_glfw.cpp">
+      <Filter>Resource Files\Extern</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Resource Files\Extern</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\imgui\imgui_tables.cpp">
+      <Filter>Resource Files\Extern</Filter>
+    </ClCompile>
+    <ClCompile Include="Libraries\imgui\imgui_widgets.cpp">
+      <Filter>Resource Files\Extern</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Test.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TestDoughnut.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TestLight.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TestPyramid.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TestShadow.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FrameBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TestAnimating.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TestHeart.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TestGrayScale.cpp">
+      <Filter>Source Files\Tests</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Source\Resources\Shaders\Basic.shader">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Source\Resources\Shaders\Circle.shader">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Source\Resources\Shaders\Doughnut.shader">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Source\Resources\Shaders\Pyramid.shader">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Source\Resources\Shaders\Light.shader">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Source\Resources\Shaders\Shadow.shader">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Libraries\imgui\example_glfw_opengl3.vcxproj">
+      <Filter>Resource Files\Extern</Filter>
+    </None>
+    <None Include="Libraries\imgui\example_glfw_opengl3.vcxproj.filters">
+      <Filter>Resource Files\Extern</Filter>
+    </None>
+    <None Include="Source\Resources\Shaders\ShadowMap.shader">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Source\Resources\Shaders\Animating.shader">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Source\Resources\Shaders\Heart.shader">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="Source\Resources\Shaders\GrayScale.shader">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\VertexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IndexBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\VertexArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\VertexBufferLayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\imgui\imconfig.h">
+      <Filter>Resource Files\Extern</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\imgui\imgui.h">
+      <Filter>Resource Files\Extern</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\imgui\imgui_impl_glfw.h">
+      <Filter>Resource Files\Extern</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\imgui\imgui_impl_opengl3.h">
+      <Filter>Resource Files\Extern</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>Resource Files\Extern</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\imgui\imgui_internal.h">
+      <Filter>Resource Files\Extern</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\imgui\imstb_rectpack.h">
+      <Filter>Resource Files\Extern</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\imgui\imstb_textedit.h">
+      <Filter>Resource Files\Extern</Filter>
+    </ClInclude>
+    <ClInclude Include="Libraries\imgui\imstb_truetype.h">
+      <Filter>Resource Files\Extern</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Test.h">
+      <Filter>Header Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TestDoughnut.h">
+      <Filter>Header Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TestLight.h">
+      <Filter>Header Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TestPyramid.h">
+      <Filter>Header Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TestShadow.h">
+      <Filter>Header Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FrameBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TestAnimating.h">
+      <Filter>Header Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TestHeart.h">
+      <Filter>Header Files\Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TestGrayScale.h">
+      <Filter>Header Files\Tests</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
