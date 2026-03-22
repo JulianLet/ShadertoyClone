@@ -90,7 +90,7 @@ int main(void)
         menu->RegisterTest<test::TestDoughnut>("Doughnut");
         menu->RegisterTest<test::TestPyramid>("Pyramid");
         menu->RegisterTest<test::TestLight>("Light");
-        //menu->RegisterTest<test::TestShadow>("Shadow");
+        menu->RegisterTest<test::TestShadow>("Shadow");
         menu->RegisterTest<test::TestAnimating>("Animating");
         menu->RegisterTest<test::TestHeart>("Heart");
         menu->RegisterTest<test::TestGrayScale>("GrayScale");
